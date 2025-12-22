@@ -610,24 +610,28 @@
   },
   "sheets": [
     [
-      "8da7a9a2-1f9b-4337-9ece-bda830a0d81e",
-      "Root"
-    ],
-    [
       "5bf926a8-35f5-449e-aca3-d0ab59fe1f08",
       "COVER"
+    ],
+    [
+      "d47faeb8-c598-4056-b970-be6b85f05e7c",
+      "REVISION"
+    ],
+    [
+      "8da7a9a2-1f9b-4337-9ece-bda830a0d81e",
+      "Root"
     ],
     [
       "dc72bd4e-eb7a-4218-ba5b-d327dd5ae454",
       "MISC"
     ],
     [
-      "7793af1c-b27b-4b1f-abd7-5cfc08d05ed1",
-      "RJ45"
+      "77ea59be-73e7-46a3-95ed-2a1e2d765610",
+      "PHY1"
     ],
     [
-      "77ea59be-73e7-46a3-95ed-2a1e2d765610",
-      "CORE"
+      "a87ef24e-a371-4566-997e-c8c7a2cba428",
+      "PHY2"
     ],
     [
       "0e245e28-2204-4e99-b558-c4a5c65fdc2d",
