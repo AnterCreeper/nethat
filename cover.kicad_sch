@@ -32,7 +32,7 @@
 		)
 		(uuid "39e171c2-5e54-4663-a97c-18c8451ce486")
 	)
-	(text "Dual GigaEthernet HAT"
+	(text "Gigabit Ethernet HAT"
 		(exclude_from_sim no)
 		(at 147.32 81.534 0)
 		(effects
@@ -56,4 +56,10 @@
 		)
 		(uuid "f549c3ee-9848-45cd-92a7-d34cbc0ff802")
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
