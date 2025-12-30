@@ -323,6 +323,12 @@
 		(uuid "6ced36a7-dd6f-4f15-8377-2cbba488afee")
 	)
 	(junction
+		(at 134.62 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "955af30b-5fcf-4666-b643-fa5f76c855a3")
+	)
+	(junction
 		(at 193.04 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -357,6 +363,16 @@
 			(type default)
 		)
 		(uuid "081a12f9-74f1-41f3-a98f-f99684e358e7")
+	)
+	(wire
+		(pts
+			(xy 139.7 93.98) (xy 134.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4a31d4-3eca-43d9-a882-03aa0c3b03c3")
 	)
 	(wire
 		(pts
@@ -430,13 +446,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 139.7 43.18)
+			(xy 139.7 43.18) (xy 134.62 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27870118-e272-493b-bd0e-4ce5ee7d7470")
+		(uuid "24a4a2d2-7920-408c-98ee-5114a33dfe71")
 	)
 	(wire
 		(pts
@@ -540,6 +556,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 93.98) (xy 134.62 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75261d83-36ed-4a99-8b59-c2aabe53f20d")
+	)
+	(wire
+		(pts
 			(xy 114.3 71.12) (xy 139.7 71.12)
 		)
 		(stroke
@@ -557,6 +583,16 @@
 			(type default)
 		)
 		(uuid "7aafb114-1987-46ae-b42c-903c37d7fde8")
+	)
+	(wire
+		(pts
+			(xy 134.62 43.18) (xy 134.62 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab0270d-3a49-4203-9687-bd8c5e4248e0")
 	)
 	(wire
 		(pts
@@ -587,6 +623,16 @@
 			(type default)
 		)
 		(uuid "82591209-818e-4bf6-9475-f52246d766e0")
+	)
+	(wire
+		(pts
+			(xy 134.62 81.28) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8661254b-30ca-4a39-b44f-abe8e56c4e3e")
 	)
 	(wire
 		(pts
@@ -757,16 +803,6 @@
 			(type default)
 		)
 		(uuid "c4d66fa4-10e5-429a-9b70-19ce1dfb18d3")
-	)
-	(wire
-		(pts
-			(xy 114.3 93.98) (xy 139.7 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c92c14c5-897c-46bf-8627-5e4e21f6f92d")
 	)
 	(wire
 		(pts
@@ -1854,16 +1890,6 @@
 				(justify left top)
 			)
 		)
-		(pin "PHY0_INT" input
-			(at 114.3 43.18 0)
-			(uuid "18423ac6-2467-473f-a3d3-0b483a3cfd7b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PHY0_RXC" input
 			(at 114.3 45.72 0)
 			(uuid "df2c9a14-ceb2-4ba8-abbb-7324119a74c5")
@@ -1977,16 +2003,6 @@
 		(pin "PHY0_TXD3" output
 			(at 114.3 73.66 0)
 			(uuid "cf4e66bb-0064-4652-9c3c-c5afaa9f3aef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PHY1_INT" input
-			(at 114.3 93.98 0)
-			(uuid "c63df114-fa42-4ca0-a3ef-475f65435842")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,6 +2153,16 @@
 		(pin "PHY_REFCLK" input
 			(at 114.3 83.82 0)
 			(uuid "65bb66c5-0f0f-4764-ac34-d8f485f18d95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHY_INT" input
+			(at 114.3 81.28 0)
+			(uuid "5939b0f5-b39e-457f-9f20-d32a33c9fb8c")
 			(effects
 				(font
 					(size 1.27 1.27)
