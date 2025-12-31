@@ -380,7 +380,7 @@
 		)
 		(uuid "4cd5f21b-09d2-4992-9957-905ee35862ca")
 	)
-	(text "25/12/25"
+	(text "25/12/31"
 		(exclude_from_sim no)
 		(at 35.306 47.752 0)
 		(effects
