@@ -1,4 +1,5 @@
 # Dual Gigabit Ethernet HAT
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/antercreeper/nethat)
 
 If any questions, welcome for Issues & PRs   
 如果有疑问，欢迎提交Issues或PR
